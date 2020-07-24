@@ -1,0 +1,4 @@
+#!/bin/bash
+
+#this script will run sed command and quit at match phrase
+sed "/$1/q" | less

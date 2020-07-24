@@ -1,0 +1,4 @@
+#!/bin/bash
+
+#this script will run sed command and and drop all lines before match phrase
+sed -n "/$1/,$ p" | less
